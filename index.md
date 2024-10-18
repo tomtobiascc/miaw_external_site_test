@@ -1,6 +1,7 @@
 <html>
     <body>
         <script type='text/javascript'>
+            sessionStorage.setItem("userId", "005V9000004FWy3IAG");
             function initEmbeddedMessaging() {
                 try {
                     embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
