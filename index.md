@@ -43,7 +43,7 @@
             window.addEventListener("onEmbeddedMessagingReady", () => {
              console.log ('Received the onEmbeddedMessagingReady event...');
              embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
-    identityTokenType: "JWT", identityToken: "eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3MzE2ODgxODIsImlhdCI6MTczMTA4ODE4Mn0.hqorT2YdQEDroxdIiHmbP4WrpcErWJ-yNrv_EqJIOCFocG_YkPdiKpvKvkiaga8EmpTHqMG63vMlIv3849ILHcgGFv9Czfis_O-NnLKR3GIbJXwuxsVI_gsEtGFfNM_hQB_tZHZsklX1Hl-RU75-1Iw6Y-sRPPPU-96SjqqbXJml_QBItK9y2OUvYReDB9IEBCuDvHfmMxCYEZNbbx-_W1PHzgX-q8P_OSly90pIRdTrxqa3L_actp9wNJj4wDF9hS3hTikmCsenT7pwmE92d6KBMqReGx3wmC9ihGz9ZnEtFnmmWy7uKGWAeYBfgqoWp5vnXk3F6MDNoVS4moN4Cw"});
+    identityTokenType: "JWT", identityToken: "eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3MzI1NTY1MTUsImlhdCI6MTczMTk1NjUxNX0.Qy7li1gw4ihdqsPxQBo0VQbb6iN48bxknpyYNRkpvpPmrlEvfOsr1Y0BAy9hZMq8Ganafw6BpS6732t-J3IWCFbin665nw-IPexBNhHvAwzT97G85_CmUZTtpMHi-6p2eMz8-Yol41mDa6f19mUh1Ow-oaR-oEmIG1Rqn8z8TyK-88uuWDCQiYmyxK8uUVYx580-jz41ijQs-r_9fcBK9IwLCLoborC1autXjX747jFlG4y0iNfdp7JuQyRw6T1nke6aN2oNsG6JKKtATwuZKhJfIsRiru8NrDxbViiQMnUoGnvGRgUvwGgVl1cWpsfuLGnsbs3tHWjLSXXV9VY_zA"});
     
 
             embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({
