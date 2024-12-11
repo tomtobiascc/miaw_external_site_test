@@ -39,7 +39,7 @@
             console.log('Received the onEmbeddedMessagingReady event...');
             // sending JWT allows messaging button to appear if approved
             embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
-                identityTokenType: "JWT", identityToken: "eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3MzQ0NjI4NjAsImlhdCI6MTczMzg2Mjg2MH0.AMUucb3PsK2-zXzteJ8Dd4zEVF0LjH5WFoX-TlmWSzvwY3WZfeBl9K0UCd8eQXwKABVyed_o_FdiqgWldcT3bid3INQotxj8-R6xx0VBKa4-q4jPYBCd3DOuz-DP4mHBl3PJG_FLWN49-jgHZ5KrhdEgKFOGmsmgbsSv7-F6iI219hv-ACTyprTkP3KdhHmqML2ObaWHh4WZSlWEkxeuA3be7d0CZoOtx1iaMuqJNLpc5hYXuwKy0B2cU0ah9MoDC_plv17aq_Z43A4AUM9W9u4txIG_bAC4WaZ9raIrqn9CVBRynIl-R5hWIgE6Gdy-bHGfTOnlTCNM0CoUZO0a4A"
+                identityTokenType: "JWT", identityToken: "eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3MzQ0NzQ5ODUsImlhdCI6MTczMzg3NDk4NX0.O0CXHjPwTur-li1k_a8l_c5gceRl1dHG3Qcpj2P6aZvgU_9u5KqUlJiaxZreyZ-JVRkYTfTxzcAO2AwFwTeMkiop-WtdBnBWmbZK6E-WtyMonaQ3aIHRG_-GBGmHDLTO0YpiHMW1ra3gWaxt9rY-RtKw5TOA8aZ2QAzyU_fa6hqsOjeoOc2-cGWx-gz5RIFLXtXjUEMVVfmKb4047R1nAFuXaiILRAw0jgvS9V2BEULyTM8MP1KA8JnJpSbwJa0miAFWBPyImCC5dYAuRnlIATvFmlRkDLWkAfyRfjQAxUXlILAMWEz37O4fSDA0tPyCQhr_TtirauWZXqjVQYNWrQ"
             });
 
             // pass the userId into our prechat lwc
