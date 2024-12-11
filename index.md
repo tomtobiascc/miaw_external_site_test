@@ -29,7 +29,7 @@
             var b = document.getElementById('embeddedMessagingConversationButton');
             if (b != null) {
                 console.log('Found it, attaching to onClick event');
-                b.addEventListener('click', callPrechatAPI);
+
             } else {
                 console.log('No button yet; wait a second and try again');
                 setTimeout(trapButtonClick, 1000);
@@ -41,7 +41,7 @@
             embeddedservice_bootstrap.userVerificationAPI.setIdentityToken({
                 identityTokenType: "JWT", identityToken: "eyJraWQiOiIxMjM0NSIsImFsZyI6IlJTMjU2In0.eyJpc3MiOiJ0ZXN0SXNzdWVyIiwic3ViIjoidXNlcjEiLCJleHAiOjE3MzQ0NzQ5ODUsImlhdCI6MTczMzg3NDk4NX0.O0CXHjPwTur-li1k_a8l_c5gceRl1dHG3Qcpj2P6aZvgU_9u5KqUlJiaxZreyZ-JVRkYTfTxzcAO2AwFwTeMkiop-WtdBnBWmbZK6E-WtyMonaQ3aIHRG_-GBGmHDLTO0YpiHMW1ra3gWaxt9rY-RtKw5TOA8aZ2QAzyU_fa6hqsOjeoOc2-cGWx-gz5RIFLXtXjUEMVVfmKb4047R1nAFuXaiILRAw0jgvS9V2BEULyTM8MP1KA8JnJpSbwJa0miAFWBPyImCC5dYAuRnlIATvFmlRkDLWkAfyRfjQAxUXlILAMWEz37O4fSDA0tPyCQhr_TtirauWZXqjVQYNWrQ"
             });
-
+            console.log('Sent token');
             // pass the userId into our prechat lwc
             embeddedservice_bootstrap.prechatAPI.setVisiblePrechatFields({
                 "userId": {
